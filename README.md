@@ -1,7 +1,7 @@
 # BancoImobiliario
 Desafio Técnico: Banco Imobiliário
 
-O Desafio
+### O Desafio
 Considere o seguinte jogo hipotético muito semelhante a Banco Imobiliário, onde várias de suas mecânicas
 foram simplificadas. Numa partida desse jogo, os jogadores se alteram em rodadas, numa ordem definida
 aleatoriamente no começo da partida. Os jogadores sempre começam uma partida com saldo de 300 para
@@ -31,20 +31,24 @@ Termina quando restar somente um jogador com saldo positivo, a qualquer momento 
 Desejamos rodar uma simulação para decidir qual a melhor estratégia. Para isso, idealizamos uma partida
 com 4 diferentes tipos de possíveis jogadores. Os comportamentos definidos são:
 
-O jogador um é impulsivo;
-O jogador dois é exigente;
-O jogador três é cauteloso;
-O jogador quatro é aleatório;
+### O jogador um é impulsivo;
 O jogador impulsivo compra qualquer propriedade sobre a qual ele parar.
+
+### O jogador dois é exigente;
 O jogador exigente compra qualquer propriedade, desde que o valor do aluguel dela seja maior do que 50.
+
+### O jogador três é cauteloso;
 O jogador cauteloso compra qualquer propriedade desde que ele tenha uma reserva de 80 saldo sobrando
 depois de realizada a compra.
+
+### O jogador quatro é aleatório;
 O jogador aleatório compra a propriedade que ele parar em cima com probabilidade de 50%.
-Caso o jogo demore muito, como é de costume em jogos dessa natureza, o jogo termina na milésima rodada
+
+> **Note** : Caso o jogo demore muito, como é de costume em jogos dessa natureza, o jogo termina na milésima rodada
 com a vitória do jogador com mais saldo. O critério de desempate é a ordem de turno dos jogadores nesta
 partida.
 
-#Saída
+### Saída
 
 Uma execução do programa proposto deve rodar 300 simulações, imprimindo no console os dados referentes
 às execuções. Esperamos encontrar nos dados as seguintes informações:
